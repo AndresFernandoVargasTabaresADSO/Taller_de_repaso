@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad de Repaso 25 Octubre del 2022</title>
+    <link rel="stylesheet" href="style.css">
+<script src="main.js"></script></head>
+<body>
+    <h3>4.	Una compañía de seguros tiene contratados a N vendedores. Cada uno hace tres ventas a la semana. Su política de pagos es que un vendedor recibe un sueldo base, y un 10% extra por comisiones de sus ventas. El gerente de su compañía desea saber cuánto dinero obtendrá en la semana cada vendedor por concepto de comisiones por las tres ventas realizadas, y cuanto tomando en cuenta su sueldo base y sus comisiones.</h3>
+
+    <form id="myForm">
+        <input type="text" placeholder="Ingrese su nombre" name="nombre" required>
+        <input type="text" pattern="[0-9]+" placeholder="ingrese el sueldo base" name="sueldo" required>
+        <input type="text" pattern="[0-9]+" placeholder="ingrese la venta" name="ve1" required>
+        <input type="text" pattern="[0-9]+" placeholder="ingrese la venta" name="ve2" required>
+        <input type="text" pattern="[0-9]+" placeholder="ingrese la venta" name="ve3" required>
+        <input type="submit" value="Enviar">
+    </form>    
+    <div class="rta"> </div>
+
+    <dialog>
+        <button id="button">X</button>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Sueldo</th>
+                    <th>Comision</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </dialog>  
+
+</body>
+</html>
