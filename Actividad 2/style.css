@@ -1,9 +1,9 @@
-.img{
-    display: block;
-    margin: 0 auto;
-    padding: 60px;
-}
 input[type="text"]{
+    margin: 5px;
+    display: block;
+}
+
+input[type="number"]{
     display: block;
 }
 input[type="submit"]{
@@ -20,6 +20,7 @@ table thead tr th{
 }
 table tbody tr{
     text-align: center;
+    padding: 80%;
     font-family: Arial, Helvetica, sans-serif;
 }
 table tbody tr:nth-child(2n+1){
@@ -60,7 +61,7 @@ form{
     margin-left: 50px;
     border: black solid;
     background-color: #ffe4e1;
-    padding: 20px;
+    padding: 40px;
 }
 
 p{
@@ -68,13 +69,34 @@ p{
     font-size: 20px;
 }
 
-form .hola input{
+#input1{
+    border: 2px solid red;
     margin-left: 45%;
-    text-align: center;
 }
 
-.input2{
-    padding: 6px;
+#input1:hover{
+    background: rgb(225, 215, 215);
+}
+
+#input2{
+    border: 2px solid red;
+    margin-left: 45%;
+}
+
+#input2:hover{
+    background: rgb(225, 215, 215);
+}
+
+#input3{
+    border: 2px solid red;
     margin-left: 48%;
-    color: #fe8737;
+}
+
+#input3:hover{
+    background: rgb(225, 215, 215);
+}
+
+label{
+    font-size: 20px;
+    font-weight: bold;
 }
