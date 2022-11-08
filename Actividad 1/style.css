@@ -1,0 +1,80 @@
+.img{
+    display: block;
+    margin: 0 auto;
+    padding: 60px;
+}
+input[type="text"]{
+    display: block;
+}
+input[type="submit"]{
+    display: block;
+    margin-top: 10px;
+}
+table thead tr{
+    background: #fe8737;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+table thead tr th{
+    padding: 10px;
+}
+table tbody tr{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+table tbody tr:nth-child(2n+1){
+    background: #ffd9ce;
+}
+table tbody tr:nth-child(2n){
+    background: #ffeee7;
+}
+
+button{
+    padding: 6px;
+    margin-left: 97%;
+}
+
+button:hover{
+    background-color: aqua;
+    color: red;
+}
+
+table{
+    padding: 10px;
+}
+
+label{
+    color: black;
+}
+
+form{
+    margin: 50px;
+}
+
+div{
+    padding-bottom: 10px;
+}
+
+form{
+    text-align: center;
+    margin-left: 50px;
+    border: black solid;
+    background-color: #ffe4e1;
+    padding: 20px;
+}
+
+p{
+    color: red;
+    font-size: 20px;
+}
+
+form .hola input{
+    margin-left: 45%;
+    text-align: center;
+}
+
+.input2{
+    padding: 6px;
+    margin-left: 48%;
+    color: #fe8737;
+}
